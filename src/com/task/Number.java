@@ -116,10 +116,10 @@ public class Number {
         }
         else
         {
-            System.out.println("   _________________________"
-                    + "\n   |                         |"
-                    + "\n   |    UNSUITABLE VALUES!   |"
-                    + "\n   |_________________________|");
+            System.out.println("   ________________________"
+                    + "\n   |                        |"
+                    + "\n   |    UNSUITABLE TYPES!   |"
+                    + "\n   |________________________|");
             throw new NumberFormatException();
         }
     }
